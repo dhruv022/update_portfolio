@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
 
 <head>
@@ -22,13 +22,13 @@
         <!-- <div>
                 <H3 style="margin: 0; font-family: cursive;"> Dhruv Sharma</H3>
             </div> -->
-        <div style="display: flex;">
+        <!-- <div style="display: flex;">
             <a class="head-data" href="#sec1">Home</a>
-            <!-- <a class="head-data" href="#sec2">Education</a> -->
+             <a class="head-data" href="#sec2">Education</a> 
             <a class="head-data" href="#sec3">Skills</a>
             <a class="head-data" href="#sec4">Job Experience</a>
             <a class="head-data" href="#sec5">Education</a>
-        </div>
+        </div> -->
     </div>
 
 
@@ -51,7 +51,7 @@
                     <span>with</span> <span>expertise</span> <span>in</span> <span>crafting</span> <span>dynamic</span>
                     <span>and</span> <span>seamless</span> <span>designs.</span>
                 </p>
-                <p class="wave-text">
+                <p class="wave-text screen1">
                     <span>My</span> <span>commitment</span> <span>to</span> <span>innovation</span> <span>and</span> <span>detail</span> <span>reflects</span> <span>in</span> <span>each</span> <span>project</span><span>,</span> <br> <span>ensuring</span> <span>an</span> <span>engaging</span> <span>user</span> <span>experience.</span>
                 </p>
                 <p class="wave-text">
@@ -72,10 +72,10 @@
             <div class="row top-button">
 			<div class="col-md-12">
 				<div class="button-cover">
-					<div class="button">
+					<div class="button screen1">
 						<a href="https://www.linkedin.com/in/dhruv-sharma-498a511a4" target="_blank">Linkedin</a>
 					</div>
-					<div class="button">
+					<div class="button screen1">
 						<a href="https://github.com/dhruv022" target="_blank">Github</a>
 					</div>
 					<div class="button">
@@ -96,7 +96,19 @@
                 <div class="col-md-12" style="justify-content: center; display: flex;">
                     <h2>Tech Stack / Skills</h2>
                 </div>
-                <div id="part1" class="col-md-12 mt-4" style="justify-content: center; display: flex;">
+                <div class ='skill-small-scr' style="display: none;">
+                    <div class="skills">Github </div>
+                <div class="skills">MYSQL </div>
+                <div class="skills">MongoDB </div>
+                <div class="skills">PostgreSQL </div>
+                <div class="skills">Linux </div>
+                <div class="skills">OpenShift </div>
+                <div class="skills">Auth0 </div>
+                <div class="skills">Grafana </div>
+                <div class="skills">Docker </div>
+                    
+                </div>
+                <div id="part1" class="col-md-12 mt-4 skill-item" style="justify-content: center; display: flex;">
                     <span class="skills">HTML</span>
                     <span class="skills">CSS</span>
                     <span class="skills">JavaScript</span>
@@ -107,7 +119,7 @@
                     <span class="skills">Bootstrap</span>
                 </div>
                 
-                <div id="part1" class="col-md-12" style="justify-content: center; display: flex;">
+                <div id="part1" class="col-md-12 skill-item" style="justify-content: center; display: flex;">
                     <span class="skills">Jira</span>
                     <span class="skills">Git</span>
                     <span class="skills">Github</span>
@@ -116,7 +128,7 @@
                     <span class="skills">MongoDB</span>
                     <span class="skills">PostgreSQL</span>
                 </div>
-                <div id="part1" class="col-md-12" style="justify-content: center; display: flex;">
+                <div id="part1" class="col-md-12 skill-item" style="justify-content: center; display: flex;">
                     <span class="skills">Linux</span>
                     <span class="skills">OpenShift</span>
                     <span class="skills">Auth0</span>
@@ -124,6 +136,8 @@
                 </div>
                 <div class="row" style="justify-content: center;">
                     <div class="col-md-10 mt-4">
+               
+
                         <ul class="skills-list">
                             <li>
                                 <b>MongoDB: </b>Proficient in designing and implementing MongoDB databases, ensuring
@@ -152,6 +166,21 @@
             </div>
         </div>
         <div class="slides">
+            <div class ='skill-small-scr' style="display: none;">
+
+                <div class="skills">HTML </div>
+                    <div class="skills">CSS/Sass</div>
+                    <div class="skills">JavaScript </div>
+                    <div class="skills">TypeScript </div>
+                    <div class="skills">ExpressJS </div>
+                    <div class="skills">Angular </div>
+                    <div class="skills">NodeJS </div>
+                    <div class="skills">Bootstrap </div>
+                    <div class="skills">Jira</div>
+                    <div class="skills">Git</div>
+
+                
+            </div>
             <div class="row" style="justify-content: center;">
                 <div class="col-md-10">
                     <ul class="skills-list">
@@ -192,15 +221,18 @@
         </div>
         <div class="slides" id="sec4">
             <div>
-                <div class="col-md-12 mt-5" style="justify-content: center; display: flex;">
+                <div class="col-md-12 mt-5 custom-scr" style="justify-content: center; display: flex;">
                     <h2>Job Experience</h2>
                 </div>
                 <div class="row" style="justify-content: center;">
 					<div id="part1" class="col-md-10">
 						<h4>Graduate Engineer Trainee</h4>
 						<i>~ Jio PLatforms Limited (12/2023-present)</i>
-
-						<div class="mt-3">
+						<div class="mt-3 screen2" style="display: none;">
+                            <p>I have mastered Linux, ensuring smooth deployments and maintenance of systems. My experience with OpenShift allows me to orchestrate containerized applications seamlessly, This comprehensive skill set empowers me to deliver high-performance backend solutions and maintain reliable infrastructure.</p>
+                        </div>
+                        
+						<div class="mt-3 screen1">
 							<p>As a backend developer, I have honed my expertise in Node.js and Express.js, enabling me to build robust and scalable server-side applications. My proficiency extends to various databases, including MySQL and MongoDB, where I efficiently design, manage, and optimize data storage solutions. In the realm of DevOps, I have mastered Linux, ensuring smooth deployments and maintenance of systems. My experience with OpenShift allows me to orchestrate containerized applications seamlessly, while my skills in Grafana enable me to monitor and visualize system metrics effectively. This comprehensive skill set empowers me to deliver high-performance backend solutions and maintain reliable infrastructure.</p>
 						</div>
 					</div>
@@ -209,8 +241,13 @@
 					<div id="part1" class="col-md-10">
 						<h4>Software Intern</h4>
 						<i>~ Talentelgia Technologies (02/2023-08/2023)</i>
-
-						<div class="mt-3">
+                        <div class="mt-3 screen2" style="display: none;">
+                            <p>During my internship, I gained invaluable practical knowledge that complemented my
+								academic
+								foundation. Engaging in real-world projects, I enhanced my understanding of industry
+								practices, applying theoretical concepts to actual scenarios.</p>
+                        </div>
+						<div class="mt-3 screen1">
 							<p>During my internship, I gained invaluable practical knowledge that complemented my
 								academic
 								foundation. Engaging in real-world projects, I enhanced my understanding of industry
@@ -231,7 +268,7 @@
 
         <div class="slides" id="sec5">
             <div class="row">
-                <div class="col-md-12 mt-4" style="justify-content: center; display: flex;">
+                <div class="col-md-12 mt-4 custom-scr" style="justify-content: center; display: flex;">
                     <h2>Qualification.</h2>
                 </div>
                 <div id="part1" class="row" style="justify-content: center; display: flex;">
@@ -252,7 +289,12 @@
                             <i>~ Punjab Technical University (2019-2023)</i>
                         </li>
                     </ul>
-                    <p>Throughout my Bachelor's in Computer Science and Engineering, I developed strong
+                    <p class="screen2" style="display: none;">
+                        Throughout my Bachelor's in Computer Science and Engineering, I developed strong
+                        programming skills in Java, C++, and Python, applying them to real-world projects. My
+                        understanding of data structures and algorithms allowed me to optimize code efficiently.
+                    </p>
+                    <p class="screen1">Throughout my Bachelor's in Computer Science and Engineering, I developed strong
                         programming skills in Java, C++, and Python, applying them to real-world projects. My
                         understanding of data structures and algorithms allowed me to optimize code efficiently.
                         Proficient in database management using SQL, I designed and managed relational databases
@@ -270,7 +312,8 @@
         </div>
 
         <div class="slide_last">
-            <h2>Thank you for Your time.</h2>
+            <h2 class="screen1">Thank you for Your time.</h2>
+            <h2 class="screen2 head-src" style="display: none;">Thank you <br>for Your time.</h2>
         </div>
         <footer class="bg-body-tertiary text-center mt-5 footer">
             <!-- Grid container -->
